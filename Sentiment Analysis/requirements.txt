@@ -1,0 +1,12 @@
+flask
+gunicorn
+Cassandra-driver
+pandas
+numpy
+matplotlib
+seaborn
+sklearn
+scipy
+cassandra-driver
+apscheduler
+
