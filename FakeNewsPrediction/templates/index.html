@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>fake news Prediction</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  
+</head>
+
+<body>
+
+ <div class="container" >
+
+  <header>
+
+  </header>
+
+  <div class="cover">
+    <h1>Fake News Prediction</h1>
+    <form  action="/predict1" method="POST">
+      <label for="from">
+        <i class="ion-location"></i>
+      </label>
+      <input type="text" class="ne" name="news" placeholder="News">
+      <input type="submit"  value="fast">
+    </form>
+      <h1 class="pred">{{ prediction_text }}</h1>
+  </div>
+
+</div>
+</body>
+</html>
